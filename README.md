@@ -9,8 +9,8 @@ This project begins by analysing the **Goodman et al. (2013)** data set and then
 ## Repository structure 
 
 This repository contains:   
-- Datasets used or derived from published studies  
-- Reproducible scripts for preprocessing the data, statistics, and figure generation
+- Transgene datasets used  from published studies  
+- Custom scripts used for the processing these data sets, statistical analyses, and producing figures
 
 ## To download the repository...
 
