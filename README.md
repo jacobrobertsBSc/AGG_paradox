@@ -2,17 +2,18 @@
 
 # Understanding the association of AGG codons with highly expressed genes, an artifact or an enigma? 
 
-This project begins by using data from Goodman et al., (Causes and effects of N-terminal codon bias in bacterial genes 2013). This group took 137 endogenous E.coli genes and created over 14,000 constructs through by using two different reporters, 3 different ribosomal binding sites and 13 codon variants for the first 11 amino acids (including initiation Met) to understand how 5’ codons affect protein expression. In their data below, it is clear that the AGG codon is associated with the highest level of protein expression. However, this does not align with the avoidance of NGG codons and the preference for A&T bases within the 5' region of genes as described in ... Kudla et al. supported the concept that initiation is the limiting factor (check this is true) for the rate of protein translation, with 5' mRNA structure (-4 to +37 nucleotides from the start codon) explained 44% of the variation in flourescence levels
+Here, we investigate the biological relevance of a paradoxical association between the arginine codon **AGG** and high gene expression. This result was originally observed in [Goodman et al., 2013] and contradicts a widely supported theory suggesting that codons which promote stable mRNA secondary structures (G/C rich) suppress protein expression by hinderingg translation initiation (Allert, Cox, & Hellinga, 2010; Bentele et al., 2013; Cambray, Guimaraes & Arkin, 2018; Osterman et al., 2020; Nieuwkoop et al., 2023).
 
-. mRNA Folding Near the Start Codon Strongly Influences Expression
-The most important factor affecting expression was the mRNA secondary structure near the ribosome binding site (−4 to +37 nucleotides from the start codon).
-mRNAs with strong secondary structure in this region had lower protein expression, likely because highly structured regions block translation initiation.
-This explains 59% of the variation in fluorescence levels (protein expression).
-4. Weakening 5' mRNA Secondary Structure Increases Expression
-Adding a 28-codon tag with weak mRNA structure at the 5' end of the GFP genes increased expression.
-This suggests that natural selection may favor weaker mRNA secondary structures near the start codon in endogenous E. coli genes.
+This project begins by analysing the **Goodman et al. (2013)** data set and then moving onto investigating if this paradox is observed in larger transgene data sets produced by **Cambray et al. (2018)** and **Osterman et al. (2020)**. We also assess whether differences in **sampling size**, **experimental design**, or **culture conditions** may account for an artifactual association of the AGG codons with high expression.
 
-<img width="640" alt="image" src="https://github.com/user-attachments/assets/89f121df-bf7e-4d86-be99-b4d23137524a" />
+#Repository structure 
 
+This repository contains:   
+- Datasets used or derived from published studies  
+- Reproducible scripts for preprocessing the data, statistics, and figure generation
 
-Within the paper, they presented their expression data in the form of log2 fold change which Dr Hurst finds strange. On top of this, in their CSV file they have three different metrics of how much expression occurs when measuring GFP as a reporter. I will look to use these metrics and hopefully other data to understand if the AGG paradox seen in the Goodman paper is something worth investigating. 
+#To download the repository...
+
+```bash
+git clone https://github.com/yourusername/AGG_paradox.git
+cd AGG_paradox
