@@ -40,6 +40,7 @@ cd AGG_paradox
 **Python version 3.12.8**
 - Pandas (version 2.2.3)
 - Scipy (version 1.15.2)
+
 **R version 4.4.2**
 - ggplot2
 - ggrepel
