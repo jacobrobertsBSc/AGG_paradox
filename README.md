@@ -6,17 +6,17 @@ Here, we investigate the biological relevance of a paradoxical association betwe
 
 This project begins by analysing the **Goodman et al. (2013)** data set and then moving onto investigating if this paradox is observed in larger transgene data sets produced by **Cambray et al. (2018)** and **Osterman et al. (2020)**. We also assess whether differences in **sampling size**, **experimental design**, or **culture conditions** may account for an artifactual association of the AGG codons with high expression.
 
-##Repository structure 
+## Repository structure 
 
 This repository contains:   
 - Datasets used or derived from published studies  
 - Reproducible scripts for preprocessing the data, statistics, and figure generation
 
-##To download the repository...
+## To download the repository...
 
 ```bash
 git clone https://github.com/yourusername/AGG_paradox.git
 cd AGG_paradox
 ```
-##Dependencies
+## Dependencies
 
