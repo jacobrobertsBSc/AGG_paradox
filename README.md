@@ -20,3 +20,4 @@ cd AGG_paradox
 ```
 ## Dependencies
 
+## Figures and Scripts
