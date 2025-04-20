@@ -46,4 +46,12 @@ cd AGG_paradox
 - gridExtra
 - Tidy
 
-## Figures and Scripts
+## **Acknowledgements **
+
+This project carried out as part of my final year project at The University of Bath. I would like to thank my supervisor Dr Laurence Hurst for his support throughout this work.
+
+Goodman, D.B., Church, G.M. and Kosuri, S., 2013. Causes and Effects of N-Terminal Codon Bias in Bacterial Genes. Science, 342(6157), pp. 475-479.
+
+Cambray, G., Guimaraes, J.C. and Arkin, A.P., 2018. Evaluation of 244,000 synthetic sequences reveals design principles to optimize translation in Escherichia coli. Nature Biotechnology, 36(10), pp. 1005-1015.
+
+Osterman, I.A., Chervontseva, Z.S., Evfratov, S.A., Sorokina, A.V., Rodin, V.A., Rubtsova, M.P., Komarova, E.S., Zatsepin, T.S., Kabilov, M.R., Bogdanov, A.A., Gelfand, M.S., Dontsova, O.A. and Sergiev, P.V., 2020. Translation at first sight: the influence of leading codons. Nucleic Acids Research, 48(12), pp. 6931-6942.
