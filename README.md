@@ -19,14 +19,16 @@ There is a folder for each figure containing:
 - The scripts
 - Output files (ggplots)
 
-Figure	  Description	Script Path
-Fig 1   	Prot.FCC log odds analysis using data from Goodman et al (2013).	figures/fig1_goodman/
-Fig 2A/B	Trans and Trans.FCC log odds analysis using data from Goodman et al (2013).	figures/fig2A/ or figures/fig2B/
-Fig 3A	  Trans log odds analysis using data from Cambray et al (2018). figures/fig3A/
-Fig 3B    Correlation between trans metric data sets from Goodman et al (2013) and Cambray et al (2018). figures/fig3B/
-Fig 3C    Correlation between sub-sampled trans metric from Cambray et al (2018) and Goodman et al (2013). figures/fig3C/
-Fig 4A    Translation efficiency fraction (TEF) log odds analysis using data from Osterman et al (2020). figures/fig4C/
-Fig 4B    Correlation between the log odds values derived from high and low nutrients experiments performed by Osterman et al (2020). figures/fig4C/
+| Figure | Description | Script Path |
+|--------|-------------|-------------|
+| Fig 1  | Prot.FCC log odds analysis using data from Goodman et al. (2013) | `figures/fig1_goodman/` |
+| Fig 2A | Trans log odds analysis using data from Goodman et al. (2013) | `figures/fig2A/` |
+| Fig 2B | Trans.FCC log odds analysis using data from Goodman et al. (2013) | `figures/fig2B/` |
+| Fig 3A | Trans log odds analysis using data from Cambray et al. (2018) | `figures/fig3A/` |
+| Fig 3B | Correlation between trans metrics from Goodman et al. (2013) and Cambray et al. (2018) | `figures/fig3B/` |
+| Fig 3C | Correlation between sub-sampled trans metric from Cambray et al. (2018) and Goodman et al. (2013) | `figures/fig3C/` |
+| Fig 4A | Translation efficiency fraction (TEF) log odds analysis using data from Osterman et al. (2020) | `figures/fig4A/` |
+| Fig 4B | Correlation between the log odds values derived from high and low nutrient experiments by Osterman et al. (2020) | `figures/fig4C/` |
   
 ## To download the repository...
 
