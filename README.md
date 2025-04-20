@@ -17,5 +17,6 @@ This repository contains:
 ```bash
 git clone https://github.com/yourusername/AGG_paradox.git
 cd AGG_paradox
+```
+##Dependencies
 
-##Depenencies 
