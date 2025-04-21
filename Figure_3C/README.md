@@ -8,6 +8,11 @@ To do this, the Cambray data set (244,000 transgenes) was randomly sub-sampled 1
 
 ## Contents
 
+- `Cambray.csv`  
+  - Input data with RNA and protein counts for 244,000 transgenes (includes `clean.lin.prot.mean` and `ss.rna.dna.mean` columns)
+  - As this file is too large, `Cambray.csv` is available via https://static-content.springer.com/esm/art%3A10.1038%2Fnbt.4238/MediaObjects/41587_2018_BFnbt4238_MOESM58_ESM.zip
+  - Please rename this file to 'Cambray.csv' for the scripts to work
+
 - `Cambray_Subsampled_logodds.csv`  
   - Mean log odds for each codon after sub-sampling the Cambray dataset.
 
