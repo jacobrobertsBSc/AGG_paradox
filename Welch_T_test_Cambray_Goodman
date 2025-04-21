@@ -9,8 +9,7 @@ This test shows if the Goodman values are on average higher than those from the 
 ## Contents
 
 - `1241934tables1.csv`  
-  - Input dataset from **Goodman et al. (2013)** containing raw protein and mRNA levels.  
-  - Translation efficiency was taken from the `Trans` column.
+  - Input dataset from Goodman et al. (2013), containing Prot.FCC, Trans.FCC and Trans expression metrics.
 
 - `Cambray.csv`  
   - Input dataset from **Cambray et al. (2018)** with protein and mRNA values.  
