@@ -1,0 +1,42 @@
+# Welch’s t-test – Investigating systemic differences in translation efficiency distribution between the Goodman vs Cambray data sets
+
+This folder contains the data and script used to perform an unpaired Welch’s t-test comparing the translation efficiency values from Goodman et al (2013) and Cambray et al (2018) datasets.
+
+This test shows if the Goodman values are on average higher than those from the Cambray data set, this may give insight into the unusual AGG codon behavior seen in Goodman et al (2013)
+
+---
+
+## Contents
+
+- `1241934tables1.csv`  
+  - Input dataset from **Goodman et al. (2013)** containing raw protein and mRNA levels.  
+  - Translation efficiency was taken from the `Trans` column.
+
+- `Cambray.csv`  
+  - Input dataset from **Cambray et al. (2018)** with protein and mRNA values.  
+  - Translation efficiency was calculated as `clean.lin.prot.mean / ss.rna.dna.mean`.
+
+- `Unpaired_Ttest.py`  
+  - Python script that performs the unpaired T-test
+
+---
+
+## 🧪 Statistical Summary
+
+- **Test used**: Welch’s t-test (unpaired, unequal variance)  
+- **Null hypothesis**: Mean translation efficiency is equal across datasets  
+- **Result**:
+  - t = **-109.70**  
+  - df = **14,136**  
+  - p-value < **0.001**
+
+This highly significant result suggests that the **Goodman dataset has systematically higher translation efficiency values** than Cambray’s. This difference may contribute to observed discrepancies in codon behavior, particularly for rare codons like **AGG**.
+
+---
+
+## ▶️ To run the test
+
+Ensure both CSV files are present, then run the Python script:
+
+```bash
+python Unpaired_Ttest.py
