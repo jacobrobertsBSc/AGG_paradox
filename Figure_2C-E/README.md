@@ -1,4 +1,4 @@
-# Figure 2C–E – Correlation of codon enrichment between the three different Goodman et al (2013) metrics
+# Figure 2C–E – Correlation between the three different Goodman et al (2013) expression metrics
 
 This folder contains the data, scripts, and output files to recreate Figure 2C–E, this compares codon-level log odds results across the three expression metrics from Goodman et al. (2013). Each plot shows a Pearson correlation between two of these metrics:
 
