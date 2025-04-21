@@ -1,6 +1,7 @@
 # Figure 1 – Prot.FCC log odds analysis (Goodman et al., 2013)
 
 This folder contains the necessary data, scripts output files to recreate Figure 1. This shows the log odds ratios for each codon being enriched in the 5'end of mRNA constructs associated with the highest protein levels (prot.FCC) compared to those with the lowest, relative to its synonyms. This uses data from Goodman et al (2013)
+
 ---
 ##  Contents
 
@@ -30,11 +31,11 @@ AGG still appears positively associated with high protein levels — replicating
 
 ## To regenerate the figure
 
-1. **Run the Python script** to compute log odds (if you want to recreate 'ProtFCC_log_odds_results.csv' ):
+1. To compute log odds (if you want to recreate 'ProtFCC_log_odds_results.csv'), run the python script:
    ```bash
    python ProtFCC_Log_odds.py
 
-2. **Run the R script** to generate the plot: 
+2. To generate the plot, run the R script: 
     ```r
     source("Fig1.R")
     ```
