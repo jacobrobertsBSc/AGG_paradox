@@ -13,6 +13,8 @@ This test shows if the Goodman values are on average higher than those from the 
 
 - `Cambray.csv`  
   - Input data with RNA and protein counts for 244,000 transgenes (includes `clean.lin.prot.mean` and `ss.rna.dna.mean` columns)
+  - As this file is too large, `Cambray.csv` is available via https://static-content.springer.com/esm/art%3A10.1038%2Fnbt.4238/MediaObjects/41587_2018_BFnbt4238_MOESM58_ESM.zip
+  - Please rename this file to 'Cambray.csv' for the scripts to work
 
 - `Unpaired_Ttest.py`  
   - Python script that performs the unpaired T-test
