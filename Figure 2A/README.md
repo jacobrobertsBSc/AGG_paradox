@@ -1,6 +1,6 @@
 # Figure 2A – Trans log odds analysis (Goodman et al., 2013)
 
-This folder contains the necessary data, scripts output files to recreate Figure 2A, which assesses if the AGG paradox remains when using the translation efficiency metric. To do this log odds ratios were calculated for each codon being enriched in the 5'end of mRNA constructs associated with the highest translation efficiencies compared to those with the lowest, relative to its synonyms. This uses data from Goodman et al (2013)
+## This folder contains the necessary data, scripts output files to recreate Figure 2A, which assesses if the AGG paradox remains when using the translation efficiency metric. To do this log odds ratios were calculated for each codon being enriched in the 5'end of mRNA constructs associated with the highest translation efficiencies compared to those with the lowest, relative to its synonyms. This uses data from Goodman et al (2013)
 ---
 ##  Contents
 
