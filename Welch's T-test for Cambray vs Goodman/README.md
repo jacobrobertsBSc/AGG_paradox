@@ -1,4 +1,4 @@
-# Welch’s t-test – Investigating systemic differences in translation efficiency distribution between the Goodman vs Cambray data sets
+# Welch’s t-test – Systemic differences in translation efficiency values between the Goodman vs Cambray data sets
 
 This folder contains the data and script used to perform an unpaired Welch’s t-test comparing the translation efficiency values from Goodman et al (2013) and Cambray et al (2018) datasets.
 
