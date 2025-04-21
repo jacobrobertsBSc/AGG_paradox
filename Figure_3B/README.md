@@ -1,6 +1,7 @@
 # Figure 3B – Correlation between Goodman and Cambray log odds
 
 This folder contains the necessary data, scripts, and output files to recreate Figure 3B, this assesses whether the codon enrichment log odds observed in Cambray et al (2018) are predictive of those from Goodman et al (2013).
+
 ---
 
 ## Contents
