@@ -20,7 +20,7 @@ This folder contains the necessary data, scripts output files to recreate Figure
 - `figure_2A.pdf`  
   - Final output showing codon log odds ratios with bars coded by the 3rd nucleotide and standard error bars
 
----
+--- 
 
 ## Plot
 
