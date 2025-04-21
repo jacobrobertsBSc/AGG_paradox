@@ -1,4 +1,4 @@
-# Figure 4A – TEF log odds analysis (Osterman., 20202)
+# Figure 4A – TEF log odds analysis (Osterman., 2020)
 
 This folder contains the necessary data, scripts output files to recreate Figure 4A . This shows the log odds ratios for each codon being enriched in the 5'end of mRNA constructs associated with the highest translation efficiency fractions (TEFs) compared to those with the lowest, relative to its synonyms. This uses data from Osterman et al (2020)
 
