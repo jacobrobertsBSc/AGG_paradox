@@ -41,18 +41,7 @@ p2_value <- signif(cor_test2$p.value, digits = 4)
 r3_value <- round(cor_test3$estimate, digits = 4)
 p3_value <- signif(cor_test3$p.value, digits = 4)
 
-#Creating a list of unique information regarding each XY plot - this will be iterated through when creating each ggplot - this is a list of lists
-#plot_pairs <- list(
- # list(x = "Prot.FCC.odds", y = "Trans.FCC.odds", title = "Prot FCC vs Trans FCC", filename = "ProtFCC_vs_TransFCC_Refined.pdf", r = r1_value, p = p1_value),
-#  list(x = "Prot.FCC.odds", y = "Trans.odds", title = "Prot FCC vs Trans", filename = "ProtFCC_vs_Trans_Refined.pdf", r = r2_value, p = p2_value),
- # list(x = "Trans.odds", y = "Trans.FCC.odds", title = "Trans vs Trans FCC", filename = "Trans_vs_TransFCC_Refined.pdf", r = r3_value, p = p3_value)
-#)
-
-#For loop for ggplots of XY plots -- this plot produces 3 plots by taking the information that is unique to each from each index(list) in plot_pairs list 
-#.data[[plot$x]] makes sure it reads from the merged_df and takes the data that matches the character string. E.g. "Prot.FCC.odds"
-
-  
-  
+                    
   p1 <- ggplot(merged_df, aes(x = merged_df$Prot.FCC.odds, y = merged_df$Trans.FCC.odds)) +
     geom_point(color = "red") +  
     geom_smooth(method = "lm", color = "blue", se = FALSE) +  
