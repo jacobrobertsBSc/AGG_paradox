@@ -112,8 +112,6 @@ for i in range(0,1000):
     else:
         Subsample_logodds = Subsample_logodds.merge(df_logodds, on=["Amino_acid", "Codon", "Last_base"], how="outer")
     
-    print(f"Subsample {i} done.")
-
 #Creating a list of the column names containing each of the 1000 subsample log odds
 log_cols = [col for col in Subsample_logodds if col.startswith("Log_Odds_")]
 #Extracting the data from Subsample_logodds (using the log_cols) to then calculate the means and SEM
@@ -123,7 +121,7 @@ Subsample_logodds["SEM_Log_Odds"] = Subsample_logodds[log_cols].sem(axis=1)
 #Saving the final merged data set with means and standard error means to a CSV
 Subsample_logodds.to_csv("Cambray_Subsampled_logodds.csv", index=False)
 
-print("Completed")
+
 
 
 
