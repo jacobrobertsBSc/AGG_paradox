@@ -29,7 +29,7 @@ This gives insight into whether differences in nutrient availabiltiy influences 
 
 The log odds data sets from both experiments are highly correlated, indicating that nutrient availability has minimal influence on the codon usage patterns affecting translation efficiency and is unlikely to contribute to the unusual behavior seen with the AGG codon in Goodman et al (2013).
 
-![Figure 1](Figure_4B_LB_vs_M9_Osterman copy.png)
+![Figure 1](Figure_4B_LB_vs_M9_Osterman.png)
 
 ---
 
