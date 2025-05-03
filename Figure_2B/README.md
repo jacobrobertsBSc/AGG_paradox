@@ -24,7 +24,7 @@ This folder contains the necessary data, scripts output files to recreate Figure
 
 ## Plot
 
-
+![Figure 1](figure_2B.png)
 
 AGG appears as an outlier codon positively associated with high expression — supporting the paradox observed in Prot.FCC analysis.
 
