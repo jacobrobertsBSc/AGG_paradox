@@ -32,6 +32,8 @@ To do this, the Cambray data set (244,000 transgenes) was randomly sub-sampled 1
 
 ## Plot 
 
+![Figure 3C](Figure_3C.png)
+
 The correlation coefficient between the log odds from the sub-sampled Cambray data set and the Goodman data set are unchanged compared to when using the pre-subsampled Cambray data set. This indicates the differences in sampling size is not contributing to the observed AGG paradox in Goodman et al (2013)
 
 ---
