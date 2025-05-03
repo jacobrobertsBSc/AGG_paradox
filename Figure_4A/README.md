@@ -24,6 +24,8 @@ This folder contains the necessary data, scripts output files to recreate Figure
 
 ## Plot
 
+![Figure 4A](Figure_4A.png)
+
 Similarly to the data from Cambray et al (2018), here AGG appears negatively associated with high protein levels.
 
 ---
