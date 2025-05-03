@@ -28,6 +28,8 @@ In this analysis, translation efficiency for each construct was calculated using
 
 ## Plot
 
+![Figure 1](figure_3A.png)
+
 Unlike in Goodman et al. (2013), AGG shows a negative log odds ratio, suggesting a suppressive effect on expression. 
 
 ---
