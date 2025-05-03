@@ -32,6 +32,8 @@ These are:
 
 ## Plots
 
+![Figure 1](Figure_2C-E.png)
+
 All three correlations are strong, indicating high predictiveness between the different expression metrics and suggesting the AGG paradox is not an artifact of the use of prot.FCC in Goodman et al (2013)
 
 ---
