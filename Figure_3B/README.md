@@ -22,11 +22,11 @@ This folder contains the necessary data, scripts, and output files to recreate F
 
 ## Plot
 
-![Figure 1](figure_3B.png)
+![Figure 3B](Figure_3B.png)
 
 The pearson correlation coefficient appears lower than what is expected as both experiments are have a similar nature. The AGG codon is one of the least predicted codons with regards to the Cambray et al (2018) data set.
 
-![Figure 3B – Cambray vs Goodman](Figure_3B.pdf)
+
 
 ---
 
