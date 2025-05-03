@@ -24,7 +24,7 @@ This folder contains the necessary data, scripts output files to recreate Figure
 
 ## Plot
 
-![Figure 1](Figure_1/figure1.png)
+![Figure 1](figure1.png)
 
 AGG still appears positively associated with high protein levels — replicating the paradox observed when displaying the prot.FCC as log2 fold change as in Goodman et al (2013).
 
