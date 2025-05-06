@@ -22,7 +22,7 @@ Constructs were binned equally on the x feature and then box plots were used to 
   > R script that uses the 'Cambray_trans+properties.csv' file to generate the ggplot box plots
 
 - 'Figure_5'
-  - Final output showing box plots for correlation between translation efficiency and each feature.
+  > Final output showing box plots for correlation between translation efficiency and each feature.
 
 ---
 
