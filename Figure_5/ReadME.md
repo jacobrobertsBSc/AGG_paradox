@@ -28,7 +28,7 @@ Constructs were binned equally on the x feature and then box plots were used to 
 
 ## Plot
 
-![Figure 5](figure_5.png)
+![Figure 5](Figure_5.png)
 
 5’ secondary structure stability was the strongest predictor, with less stable structures (higher minimum free energy) corresponding to significantly higher translation efficiency (Fig 5A). In contrast, the stability of 3’ secondary structures and the codon adaptation index showed virtually no correlation (Figs 5B and 5C, respectively). 
 
