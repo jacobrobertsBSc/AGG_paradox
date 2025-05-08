@@ -20,7 +20,7 @@ This gives insight into whether differences in nutrient availabiltiy influences 
 - `Osterman_Log_odds_M9.py`  
   > Python script used to generate the M9-based log odds ratios using TEF quartiles.
 
-- `Figure_4B_LB_vs_M9_Osterman.pdf`  
+- `Figure_4B_LB_vs_M9_Osterman.pdf/png`  
   > Final figure showing the correlation between LB and M9 log odds values.
 
 ---
