@@ -21,7 +21,7 @@ In this analysis, translation efficiency for each construct was calculated using
 - `Fig3A.R`  
   > R script that uses the above CSV file to generate the ggplot bar plot 
 
-- `figure3A.pdf`  
+- `figure3A.pdf/png`  
   > Final output showing codon log odds ratios with bars coded by the 3rd nucleotide and standard error bars
 
 ---
