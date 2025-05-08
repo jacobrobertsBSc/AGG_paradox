@@ -25,7 +25,7 @@ To do this, the Cambray data set (244,000 transgenes) was randomly sub-sampled 1
 - `Sub_sample_Cambray.py`  
   > Python script used to perform 1,000 random subsamples of the Cambray data and calculate codon log odds ratios for each. The averaged log odds ratios were put into `Cambray_Subsampled_logodds.csv`.
 
-- `Figure_3C.pdf`  
+- `Figure_3C.pdf/png`  
   > Final plot showing correlation between subsampled Cambray log odds and Goodman log odds.
 
 ---
