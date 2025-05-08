@@ -9,27 +9,27 @@ This gives insight into whether differences in nutrient availabiltiy influences 
 ## Contents
 
 - `Osterman_log_odds.csv`  
-  - Log odds ratios from transgene experiments in LB media.
+  > Log odds ratios from transgene experiments in LB media.
 
 - `Osterman_log_odds_M9.csv`  
-  - Log odds ratios from transgene experiments in M9 media
+  > Log odds ratios from transgene experiments in M9 media
 
 - `XY_Correlation_Osterman_LBvsM9.r`  
-  - R script that generates the correlation plot.
+  > R script that generates the correlation plot.
 
 - `Osterman_Log_odds_M9.py`  
-  - Python script used to generate the M9-based log odds ratios using TEF quartiles.
+  > Python script used to generate the M9-based log odds ratios using TEF quartiles.
 
 - `Figure_4B_LB_vs_M9_Osterman.pdf`  
-  - Final figure showing the correlation between LB and M9 log odds values.
+  > Final figure showing the correlation between LB and M9 log odds values.
 
 ---
 
 ## Plot
 
-The log odds data sets from both experiments are highly correlated, indicating that nutrient availability has minimal influence on the codon usage patterns affecting translation efficiency and is unlikely to contribute to the unusual behavior seen with the AGG codon in Goodman et al (2013).
-
 ![Figure 1](Figure_4B_LB_vs_M9_Osterman.png)
+
+The log odds data sets from both experiments are highly correlated, indicating that nutrient availability has minimal influence on the codon usage patterns affecting translation efficiency and is unlikely to contribute to the unusual behavior seen with the AGG codon in Goodman et al (2013).
 
 ---
 
