@@ -18,8 +18,8 @@ This folder contains the necessary data, scripts, and output files to compute th
 ## Output 
 
 Standardises rediduals >1.96
- > ATA --> 2.567095
- > AGG --> 3.227881
+ > ATA - 2.567095
+ > AGG - 3.227881
 
 ---
 
