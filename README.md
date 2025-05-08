@@ -21,15 +21,15 @@ There is a folder for each figure containing:
 
 | Figure | Description | 
 |--------|-------------|
-| Fig 1  | Prot.FCC log odds analysis using data from Goodman et al. (2013) |
-| Fig 2A | Trans log odds analysis using data from Goodman et al. (2013) |
-| Fig 2B | Trans.FCC log odds analysis using data from Goodman et al. (2013) |
-| Fig 3A | Trans log odds analysis using data from Cambray et al. (2018) |
-| Fig 3B | Correlation between trans metrics from Goodman et al. (2013) and Cambray et al. (2018) |
-| Fig 3C | Correlation between sub-sampled trans metric from Cambray et al. (2018) and Goodman et al. (2013) |
-| Fig 4A | Translation efficiency fraction (TEF) log odds analysis using data from Osterman et al. (2020) |
-| Fig 4B | Correlation between the log odds values derived from high and low nutrient experiments by Osterman et al. (2020) |
-  
+| Fig 1  | Prot.FCC log odds analysis using data from Goodman et al (2013) |
+| Fig 2A | Trans log odds analysis using data from Goodman et al (2013) |
+| Fig 2B | Trans.FCC log odds analysis using data from Goodman et al (2013) |
+| Fig 3A | Trans log odds analysis using data from Cambray et al (2018) |
+| Fig 3B | Correlation between trans metrics from Goodman et al (2013) and Cambray et al. (2018) |
+| Fig 3C | Correlation between sub-sampled trans metric from Cambray et al. (2018) and Goodman et al (2013) |
+| Fig 4A | Translation efficiency fraction (TEF) log odds analysis using data from Osterman et al (2020) |
+| Fig 4B | Correlation between the log odds values derived from high and low nutrient experiments by Osterman et al (2020) |
+| Fig 5  | Correlation between translation efficiency and 5' stability, 3' stability, and CAI using data from Cambray et al (2018)| 
 ## To download the repository...
 
 ```bash
