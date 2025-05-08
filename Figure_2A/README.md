@@ -6,19 +6,19 @@ This folder contains the necessary data, scripts output files to recreate Figure
 ##  Contents
 
 - `1241934tables1.csv`  
-  - Input dataset from Goodman et al. (2013), containing Prot.FCC, Trans.FCC and Trans expression metrics.
+  > Input dataset from Goodman et al. (2013), containing Prot.FCC, Trans.FCC and Trans expression metrics.
 
 - `Trans_Log_odds.py`  
-  - Python script used to calculate the log odds ratios and standard errors from the Goodman Trans.FCC dataset.
+  > Python script used to calculate the log odds ratios and standard errors from the Goodman Trans dataset.
 
 - `log_odds_results_transs.csv`  
-  - Output from the above script containing log odds and standard errors for each codon
+  > Output from the above script containing log odds and standard errors for each codon
 
 - `Fig2A.R`  
-  - R script that uses the above CSV file to generate the ggplot bar plot 
+  > R script that uses the above CSV file to generate the ggplot bar plot 
 
 - `figure_2A.pdf`  
-  - Final output showing codon log odds ratios with bars coded by the 3rd nucleotide and standard error bars
+  > Final output showing codon log odds ratios with bars coded by the 3rd nucleotide and standard error bars
 
 --- 
 
