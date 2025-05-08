@@ -1,4 +1,4 @@
-# Figure 3A – Correlations between translation efficiency and sequence features.
+# Figure 5A-C – Correlations between translation efficiency and sequence features.
 
 This folder contains the necessary data, scripts output files to recreate Figure 5A-C. This investigates how well translation efficiency is predicted by the 5' stability, 3' stability and codon adaptatio index of mRNA constructs from Cambray et al (2018).
 
