@@ -1,6 +1,6 @@
 # Figure 5A-C – Correlations between translation efficiency and sequence features.
 
-This folder contains the necessary data, scripts output files to recreate Figure 5A-C. This investigates how well translation efficiency is predicted by the 5' stability, 3' stability and codon adaptatio index of mRNA constructs from Cambray et al (2018).
+This folder contains the necessary data, scripts and output files to recreate Figure 5A-C. This investigates how well translation efficiency is predicted by the 5' stability, 3' stability and codon adaptation index of mRNA constructs from Cambray et al (2018).
 
 Constructs were binned equally on the x feature and then box plots were used to show the correlation trend against translation efficiency.
 
@@ -30,7 +30,7 @@ Constructs were binned equally on the x feature and then box plots were used to 
 
 ![Figure 5](Figure_5.png)
 
-5’ secondary structure stability was the strongest predictor, with less stable structures (higher minimum free energy) corresponding to significantly higher translation efficiency (Fig 5A). In contrast, the stability of 3’ secondary structures and the codon adaptation index showed virtually no correlation (Figs 5B and 5C, respectively). 
+5’ secondary structure stability was the strongest predictor. In contrast, the stability of 3’ secondary structures and the codon adaptation index showed virtually no correlation. 
 
 ---
 
