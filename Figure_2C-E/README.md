@@ -22,7 +22,7 @@ These are:
 - `XY_Correlations_Pearson_Goodman.r`  
   > R script generates the three-panel correlation plot.
 
-- `Figure_2C-E.pdf`  
+- `Figure_2C-E.pdf/png`  
   > Final output showing three scatter plots:
     > Prot.FCC vs Trans.FCC,
     > Prot.FCC vs Trans,
