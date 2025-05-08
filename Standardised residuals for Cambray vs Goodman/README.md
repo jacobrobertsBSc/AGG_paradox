@@ -17,9 +17,9 @@ This folder contains the necessary data, scripts, and output files to compute th
 
 ## Output 
 
-  Codon Goodman.logodds Subsampled_Cambray.logodds std_resid
-19   ATA           0.706                   0.227674  2.567095
-39   AGG           0.723                  -0.120362  3.227881
+Standardises rediduals >1.96
+  ATA --> 2.567095
+  AGG --> 3.227881
 
 ---
 
