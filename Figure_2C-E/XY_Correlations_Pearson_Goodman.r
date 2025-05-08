@@ -17,7 +17,7 @@ names(trans)[names(trans) == "Std_Error"] <- "Trans.Std"
 
 merged_list <- list(prot_FCC, trans_FCC, trans)
 #Merging the data frames within merged_list using the base reduce function -- this is not the most efficient for large data sets -
-#I will consider using the reduce() function from tidyverse as it is more fast/efficient
+#Consider using the reduce() function from tidyverse as it is more fast/efficient
 merged_df <- Reduce(function(x,y) merge(x,y, by = c("Amino_acid","Codon"), all=TRUE), merged_list)
 
 merged_df <- merged_df[, c("Amino_acid", "Codon",  
@@ -25,6 +25,7 @@ merged_df <- merged_df[, c("Amino_acid", "Codon",
                            "Trans.FCC.odds", "Trans.FCC.Std",  
                            "Trans.odds", "Trans.Std", 
                            "Last_base")]
+                    
 #Extracting the log odds columns from each df
 Prot_FCC <- unlist(merged_df$Prot.FCC.odds)
 Trans_FCC <- unlist(merged_df$Trans.FCC.odds)
@@ -81,7 +82,4 @@ dev.off()
 
 
 
-  # Generate scatter plot
-    # Open PDF
-    # Loop through each plot pair and generate the scatter plots
-      # Print plot to PDF
+ 
