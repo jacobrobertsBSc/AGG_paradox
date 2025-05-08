@@ -7,16 +7,16 @@ This folder contains the necessary data, scripts, and output files to recreate F
 ## Contents
 
 - `log_odds_results_Transs.csv`  
-  - Log odds ratios and standard errors from Goodman et al. (2013), calculated using the Trans metric.
+  > Log odds ratios and standard errors from Goodman et al. (2013), calculated using the Trans metric.
 
 - `log_odds_results_Cambray.csv`  
-  - Log odds ratios and standard errors from Cambray et al. (2018), calculated using translation efficiency values.
+  > Log odds ratios and standard errors from Cambray et al. (2018), calculated using translation efficiency values.
 
 - `XY_Correlation_Cambray_Goodman.r`  
-  - R script that generates the correlation plot.
+  > R script that generates the correlation plot.
 
-- `Figure_3B.pdf`  
-  - Output plot showing the correlation between Goodman and Cambray log odds values.
+- `Figure_3B.pdf/png`  
+  > Output plot showing the correlation between Goodman and Cambray log odds values.
 
 ---
 
@@ -24,7 +24,7 @@ This folder contains the necessary data, scripts, and output files to recreate F
 
 ![Figure 3B](Figure_3B.png)
 
-The pearson correlation coefficient appears lower than what is expected as both experiments are have a similar nature. The AGG codon is one of the least predicted codons with regards to the Cambray et al (2018) data set.
+The pearson correlation coefficient appears lower than what is expected, considering they are both measuring translation efficiency. The AGG codon is one of the least predicted codons with regards to the Cambray et al (2018) data set.
 
 
 
