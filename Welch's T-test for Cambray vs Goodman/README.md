@@ -25,6 +25,8 @@ This test shows if the Goodman values are on average higher than those from the 
 
 TtestResult(statistic=np.float64(-109.69496460711792), pvalue=np.float64(0.0), df=np.float64(14136.000000001017))
 
+t-value: -109.7 / p-value:0.0 / degrees of freedom: 14136
+
 This significant result indicates that the Goodman dataset has systematically higher translation efficiency values than Cambray’s. This difference may contribute to observed discrepancies in codon behavior, particularly for rare codons like AGG.
 
 ---
