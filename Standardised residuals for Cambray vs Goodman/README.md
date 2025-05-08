@@ -20,6 +20,7 @@ This folder contains the necessary data, scripts, and output files to compute th
   Codon Goodman.logodds Subsampled_Cambray.logodds std_resid
 19   ATA           0.706                   0.227674  2.567095
 39   AGG           0.723                  -0.120362  3.227881
+
 ---
 
 ## To regenerate the plot
