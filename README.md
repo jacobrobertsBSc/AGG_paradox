@@ -45,7 +45,7 @@ cd AGG_paradox
 - ggplot2
 - ggrepel
 - gridExtra
-- Tidy
+- Tidyverse
 
 ## **Acknowledgements **
 
