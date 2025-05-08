@@ -7,6 +7,7 @@ This folder contains the necessary data, scripts and output files to recreate Fi
 
 - `Supplementary table 1.csv`  
   > Input dataset from Osterman et al (2020), containing transgenes and their corresponding TEF value.
+  > This can be sourced from https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/48/12/10.1093_nar_gkaa430/1/gkaa430_supplemental_files.zip?Expires=1749721159&Signature=rUwhDf9LcyJHJ8ltMhydCtGr4jFWUp~dP3vmDwqMOsoePMQlgCazJ-F~~pc-0M0LTFwHjOEjUdBI9VFlYpCeQF0NM787zHefEbC-VUdNQjRzmaZ2VfSHvk7f5wpjprdxpA3pMQSO1Iusxf~~ahslrk-oYxUrN10nr0GxI1awzj6BVEb0pCYVnLzBsOrOxhpNT0KB9IVxYFiEkIlQ3zAIz5~Rcyop-d42PLtP3~jaHvqp42Y07PqiJARRISsYryDztI3eaQfHqCfikx9n84jdRpMSwIA8NvZaZiEVZsLQabhj0kci6AqO2n3cnSxW9ERGZZamMh4m29iAdnvAmq799w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
 
 - `Osterman_Log_odds_LB.py`  
   > Python script used to calculate the log odds ratios from the Osterman TEF dataset.
