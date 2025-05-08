@@ -4,26 +4,26 @@ This folder contains the data, scripts, and output files to recreate Figure 2Câ€
 
 These are:
 - Prot.FCC - protein level (by flourescence), relative to the mean of the 13 transgene codon variants
-- Trans.FCC - translation efficency (protein/RNA), relativee to to the mean of the 13 trangene codon variants 
+- Trans.FCC - translation efficency (protein/RNA), relativee to the mean of the 13 trangene codon variants 
 - Trans - translation efficiency (protein/RNA)
 ---
 
 ## Contents
 
 - `Prot_FCC_log_odds.csv`  
-  - Log odds calculated from Prot.FCC values.
+  > Log odds calculated from Prot.FCC values.
 
 - `Trans_FCC_log_odds.csv`  
-  - Log odds calculated from Trans.FCC values.
+  > Log odds calculated from Trans.FCC values.
 
 - `Trans_log_odds.csv`  
-  - Log odds Trans values.
+  > Log odds Trans values.
 
 - `XY_Correlations_Pearson_Goodman.r`  
-  - R script generates the three-panel correlation plot.
+  > R script generates the three-panel correlation plot.
 
 - `Figure_2C-E.pdf`  
-  - Final output showing three scatter plots:
+  > Final output showing three scatter plots:
     - Prot.FCC vs Trans.FCC
     - Prot.FCC vs Trans
     - Trans.FCC vs Trans
