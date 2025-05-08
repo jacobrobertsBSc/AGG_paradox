@@ -24,8 +24,8 @@ These are:
 
 - `Figure_2C-E.pdf`  
   > Final output showing three scatter plots:
-    > Prot.FCC vs Trans.FCC
-    > Prot.FCC vs Trans
+    > Prot.FCC vs Trans.FCC,
+    > Prot.FCC vs Trans,
     > Trans.FCC vs Trans
 
 ---
