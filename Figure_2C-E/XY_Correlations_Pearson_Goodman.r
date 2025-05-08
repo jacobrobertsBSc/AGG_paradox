@@ -42,18 +42,20 @@ p2_value <- signif(cor_test2$p.value, digits = 4)
 r3_value <- round(cor_test3$estimate, digits = 4)
 p3_value <- signif(cor_test3$p.value, digits = 4)
 
+#Creating a scatter plot for the log odds from prot.FCC and Trans.FCC
                     
   p1 <- ggplot(merged_df, aes(x = merged_df$Prot.FCC.odds, y = merged_df$Trans.FCC.odds)) +
-    geom_point(color = "red") +  
-    geom_smooth(method = "lm", color = "blue", se = FALSE) +  
-    geom_text_repel(aes(label = Codon), size = 2, max.overlaps = Inf) +  
-    labs(x = "Prot.FCC log odds", y = "Trans.FCC log odds", title = "A") +
-    annotate("text", x = min(merged_df$Prot.FCC.odds), y = 1.05,
+    geom_point(color = "red") +  # Scatter points to represent each codon
+    geom_smooth(method = "lm", color = "blue", se = FALSE) +  # Regression line without 95% confidence intervals --> se = FALSE
+    geom_text_repel(aes(label = Codon), size = 2, max.overlaps = Inf) +  #Adding codon labels and using ggrepel to avoid overlaps
+    labs(x = "Prot.FCC log odds", y = "Trans.FCC log odds", title = "A") + #Labelling axis and adding plot title 
+    annotate("text", x = min(merged_df$Prot.FCC.odds), y = 1.05, #adding the results of the pearson's correlation to the figure
              label = paste0("R = ", r1_value, "\np = ", p1_value),
              hjust = 0, size = 4) +
-    theme(aspect.ratio=1) +
+    theme(aspect.ratio=1) + #making the graph square 
     theme_bw()
-  
+
+  #Plots repeated for prot.FCC vs Trans and Trans.FCC vs Trans               
   p2 <- ggplot(merged_df, aes(x = merged_df$Prot.FCC.odds, y = merged_df$Trans.odds)) +
     geom_point(color = "red") +  
     geom_smooth(method = "lm", color = "blue", se = FALSE) +  
