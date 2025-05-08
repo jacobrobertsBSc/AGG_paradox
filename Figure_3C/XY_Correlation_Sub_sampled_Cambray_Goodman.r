@@ -14,8 +14,9 @@ names(Goodman)[names(Goodman) == "Log_Odds"] <- "Goodman.logodds"
 names(Cambray)[names(Cambray) == "SEM_Log_Odds"] <- "Subsampled_Cambray.Std"
 names(Goodman)[names(Goodman) == "Std_Error"] <- "Goodman.Std"
 
-#Merging the data frames within merged_list using the base reduce function --> this is not the most efficient for large data sets
+#Merging the data frames within merged_list using the base reduce() function --> this is not the most efficient for large data sets
 #Consider using the reduce() function from tidyverse as it can be more efficient
+
 merged_list <- list(Cambray, Goodman)
 
 merged_df <- Reduce(function(x,y) merge(x,y, by = c("Amino_acid","Codon"), all=TRUE), merged_list)
@@ -39,7 +40,7 @@ p1_value <- signif(cor_test1$p.value, digits = 4)
 
 pdf("Figure_3C.pdf", width = 8, height = 8)#Creating a blank PDF file
 
-#Creating a scatter plot for the log odds from Cambray and Goodman
+#Creating a scatter plot for the subsampled Cambray log odds vs the Goodman log odds
 GGplot1 = ggplot(merged_df, aes(x = Subsampled_Cambray.logodds, y = Goodman.logodds)) + 
   geom_point(color = "red") +  # Scatter points to represent each codon
   geom_smooth(method = "lm", color = "blue", se = TRUE) +  # Regression line without 95% confidence intervals --> se = FALSE
