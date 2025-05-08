@@ -10,7 +10,7 @@ This gives insight into whether differences in nutrient availabiltiy influences 
 
 - 'Supplementary table 4.csv'
   > The input data to produce 'Osterman_log_odds_M9.csv'
-  > This can be sourced from the
+  > This can be sourced from the supplementary data 'gkaa430_Supplemental_Files' at https://academic.oup.com/nar/article/48/12/6931/5840581#supplementary-data
   
 - `Osterman_log_odds.csv`  
   > Log odds ratios from transgene experiments in LB media.
