@@ -7,6 +7,7 @@ This folder contains the necessary data, scripts and output files to recreate Fi
 
 - `1241934tables1.csv`  
   > Input dataset from Goodman et al. (2013), containing Prot.FCC, Trans.FCC and Trans expression metrics.
+  > This can be sourced from the supplementary resourcs at https://www.science.org/doi/10.1126/science.1241934#supplementary-materials
 
 - `TransFCC_Log_odds.py`  
   > Python script used to calculate the log odds ratios and standard errors from the Goodman Trans.FCC dataset.
