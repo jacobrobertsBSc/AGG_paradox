@@ -1,4 +1,4 @@
-# Figure 4B – Correlation between LB and M9 conditions in Osterman et al. (2020)
+# Figure 4B – Correlation between LB and M9 conditions in Osterman et al (2020)
 
 This folder contains the necessary data, scripts, and output files to recreate Figure 4B. This compares codon log odds values derived from E. coli cultured in nutrient rich (LB) vs nutrient poor (M9) media, using the dataset published by Osterman et al (2020).
 
