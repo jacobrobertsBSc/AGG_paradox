@@ -95,4 +95,4 @@ for aa, codons in codons_dict.items():
 
 # Saving log odds results to pandas data frame and writing out to a csv file.
 log_odds_df = pd.DataFrame(log_odds_results, columns=["Amino_acid", "Codon", "Log_Odds", "Std_Error", "Last_base"])
-log_odds_df.to_csv("log_odds_results.csv", index=False)
+log_odds_df.to_csv("log_odds_results_Trans.FCC.csv", index=False)
