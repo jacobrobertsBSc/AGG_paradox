@@ -7,21 +7,21 @@ Constructs were binned equally on the x feature and then box plots were used to 
 ---
 ##  Contents
 
-- Cambray.csv 
+- `Cambray.csv` 
   - Input data with RNA and protein counts for 244,000 transgenes (includes 'clean.lin.prot.mean' and 'ss.rna.dna.mean' columns)
   > As this file is too large, Cambray.csv is available via https://static-content.springer.com/esm/art%3A10.1038%2Fnbt.4238/MediaObjects/41587_2018_BFnbt4238_MOESM58_ESM.zip
   > Please rename this file to 'Cambray.csv' for the scripts to work   
 
-- 'Cambray_trans+properties.csv'
+- `Cambray_trans+properties.csv`
   > Note this file was too large to upload - generate using 'Trans_predictions.py'
   
-- 'Trans_predictions.py' 
+- `Trans_predictions.py` 
   > Python script used to extract the correct columns from 'Cambray.csv' and put them into 'Cambray_trans+properties.csv'
 
-- 'Trans_predictions.R'  
+- `Trans_predictions.R`  
   > R script that uses the 'Cambray_trans+properties.csv' file to generate the ggplot box plots
 
-- 'Figure_5.pdf/png'
+- `Figure_5.pdf/png`
   > Final output showing box plots for correlation between translation efficiency and each feature.
 
 ---
