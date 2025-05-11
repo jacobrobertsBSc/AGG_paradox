@@ -5,10 +5,10 @@ This folder contains the necessary data, scripts, and output files to compute th
 ## Contents
 
 - `Cambray_Subsampled_logodds.csv`  
-  - Log odds ratios for the sub-sampled Cambray dataset.
+  - Log odds ratios for the sub-sampled Cambray dataset. Produced in folder 'Figure_3A'
 
 - `log_odds_results_Transs.csv`  
-  - Log odds ratios using the Trans metric from Goodman et al (2013).
+  - Log odds ratios using the Trans metric from Goodman et al (2013). Produced in folder 'Figure_2A'
 
 - `Standardised residuals.r`  
   - R script that calculates the standardised residuals and prints those that are outliers
