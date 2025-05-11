@@ -10,6 +10,7 @@ This test shows if the Goodman values are on average higher than those from the 
 
 - `1241934tables1.csv`  
   - Input dataset from Goodman et al. (2013), containing Prot.FCC, Trans.FCC and Trans expression metrics.
+  - This can be sourced from the supplementary resourcs at https://www.science.org/doi/10.1126/science.1241934#supplementary-materials
 
 - `Cambray.csv`  
   - Input data with RNA and protein counts for 244,000 transgenes (includes `clean.lin.prot.mean` and `ss.rna.dna.mean` columns)
